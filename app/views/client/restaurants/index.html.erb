@@ -1,0 +1,12 @@
+<% @restaurants.each do |restaurant| %>
+<div class="col-md-4">
+  <div class="card mb-5">
+    <div class="card-body">
+      <h2 class="card-title"><%= restaurant["name"].titleize %></h2>
+      <h3 class="card-text">Price: <%= restaurant["star_rating"] %></h3>
+      <h4 class="card-text">Image: <%= restaurant["price_rating"] %></h4>
+      <button> Check It Out </button>
+    </div>
+  </div>
+</div>
+<% end %>
