@@ -21,5 +21,9 @@ class Client::RestaurantsController < ApplicationController
     render 'show.html.erb'
   end
 
+  def message
+    
+  end 
+
  
 end
