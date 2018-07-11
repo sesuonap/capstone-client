@@ -3,11 +3,12 @@
   <div class="card mb-5">
     <div class="card-body">
       <h2 class="card-title"><%= restaurant["name"].titleize %></h2>
-      <h3 class="card-text">Price: <%= restaurant["star_rating"] %></h3>
-      <h4 class="card-text">Image: <%= restaurant["price_rating"] %></h4>
-      <button href="#"> Select </button>
+      <h3 class="card-text">Rating: <%= restaurant["rating"] %></h3>
+      <h4 class="card-text">Address: <%= restaurant["address"] %></h4>
+      <h4 class="card-text">URL: <%= restaurant["url"] %></h4>
+      <button href="/restaurants/message"> Check It Out </button>
     </div>
   </div>
 </div>
 <% end %>
-<a href="https://www.dominos.com/en/pages/order/#/locations/search/?type=Delivery" type="button">Pizza</a>
+<a href="http://dominos.com" type="button">Pizza</a>

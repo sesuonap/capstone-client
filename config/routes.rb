@@ -11,6 +11,6 @@ Rails.application.routes.draw do
     get '/restaurants' => 'restaurants#index'
     get '/restaurants/:id' => 'restaurants#show'
     get '/restaurants/message' => 'restaurants#message'
-    get '/pizza' => 'pizza#index'
+    post '/pizzas' => 'pizzas#create'
   end 
 end
